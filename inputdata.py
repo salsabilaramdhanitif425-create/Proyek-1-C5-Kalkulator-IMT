@@ -25,16 +25,3 @@ def input_tinggi():
                 return tinggi
         except ValueError:
             print("Input harus berupa angka!")
-
-# Bagian Pemanggilan Fungsi
-
-
-gender = input_gender()
-berat = input_berat()
-tinggi = input_tinggi()
-
-
-print("\n--- Data Berhasil Diinput ---")
-print(f"Gender: {gender}")
-print(f"Berat : {berat} kg")
-print(f"Tinggi: {tinggi} cm")
