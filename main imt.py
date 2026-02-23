@@ -1,7 +1,7 @@
 from input_data import input_gender, input_berat, input_tinggi
 from converter import cm_ke_meter
 from hitung_imt import hitung_imt
-from kategori_imt import kategori_imt
+from kategori_IMT import kategori_imt
 from output import tampilkan_hasil
 
 def main():
@@ -15,4 +15,5 @@ def main():
 
     tampilkan_hasil(Gender, Berat, Tinggi_cm, IMT, Kategori)
 if __name__ == "__main__":
+
     main()
