@@ -3,7 +3,7 @@ def kategori_imt(imt, gender):
         if imt < 20 :
             return 'Kurus'
         elif 20 <= imt < 25 :
-            return 'Normal' 
+            return 'Ideal' 
         elif 25 <= imt < 30:
             return 'Gemuk'
         else:
@@ -13,8 +13,9 @@ def kategori_imt(imt, gender):
         if imt < 18.5 :
             return 'Kurus'
         elif 18.5 <= imt < 25 :
-            return 'Normal' 
+            return 'Ideal' 
         elif 25 <= imt < 30:
             return 'Gemuk'
         else:
+
             return 'Obesitas'
