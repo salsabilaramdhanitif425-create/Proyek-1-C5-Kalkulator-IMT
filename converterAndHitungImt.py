@@ -7,7 +7,7 @@ def cmToMeter(tinggiCm):
 #     return tinggiMeter * 100
 
 def hitungImt(beratKg, tinggiMeter):
-    return beratKg / (tinggiMeter ^ 2)
+    return beratKg / (tinggiMeter ** 2)
 
 # def kgToPound(beratKg):
 #     return beratKg * 2.2
