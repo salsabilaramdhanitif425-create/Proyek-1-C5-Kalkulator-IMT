@@ -1,5 +1,5 @@
 def kategori_imt(imt, gender):
-    if gender == 'Laki-Laki':
+    if gender == 'Laki-laki':
         if imt < 20 :
             return 'Kurus'
         elif 20 <= imt < 25 :
@@ -17,4 +17,5 @@ def kategori_imt(imt, gender):
         elif 25 <= imt < 30:
             return 'Gemuk'
         else:
+
             return 'Obesitas'
